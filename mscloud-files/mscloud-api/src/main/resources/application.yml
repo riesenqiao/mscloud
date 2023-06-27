@@ -12,10 +12,10 @@ spring:
 
 mscloud:
   minio:
-    endpoint: http://minioqas.rifeng.com.cn:9000
-    bucketName: workshop
-    accessKey: mscloud
-    secretKey: Rf@mscloud
+    endpoint: 
+    bucketName: 
+    accessKey: 
+    secretKey: 
   oss:
     endpoint:
     bucketName:
