@@ -1,0 +1,29 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /api
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: mscloud-files
+  profiles:
+    active: test
+
+mscloud:
+  minio:
+    endpoint: http://minioqas.rifeng.com.cn:9000
+    bucketName: workshop
+    accessKey: mscloud
+    secretKey: Rf@mscloud
+  oss:
+    endpoint:
+    bucketName:
+    accessKey:
+    secretKey:
+  ftp:
+    ip:
+    port: 21
+    username:
+    password:
+    workDir:
